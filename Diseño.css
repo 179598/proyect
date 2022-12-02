@@ -65,6 +65,7 @@ logo{
             font-style: italic;
     font-size: 20px;
     font-weight: 300;
+    padding: 30px;
     
     
 }
@@ -150,7 +151,7 @@ footer{
 }
 .ifrm2{
     padding-left: 30px;
-    width: 900px;
+    width: 40%;
     height: 300px;
     border: 1px solid white;
     transform: translate(802px,-250px);
@@ -227,4 +228,205 @@ subt1{
     .navb{
         padding: 5px 0px;
     }
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background: #e39403;
+}
+h3{
+    background-color: darkorange;
+    text-align: center; 
+    width: 30%;
+    margin-left: 35%;
+}
+.lts{
+    color: white;
+    margin-left: 90px;
+    background-color: darkblue;
+    border: 1px black solid;
+    width: 80%;
+    padding: 5px;
+}
+.lts2{
+    color: white;
+    margin-left: 15%;
+    background-color: darkorange;
+    border: 1px black solid;
+    width: 60%;
+}
+.s1{
+    margin: 30px;
+    border: 1px black solid;
+    padding:2px;
+}
+.fs{
+    margin-left: 35%;
+    font-size: 40px;
+     text-shadow: 1px 2px white;
+    background-color: darkorange;
+    width: 15%;
+    text-align: center;
+}
+.fsd{
+    margin-left: 5%;
+    font-size: 40px;
+     text-shadow: 1px 2px white;
+   
+    text-align: center;
+}
+.list1:hover{
+    background-color: darkgray;
+        color:white;
+}
+.prof{
+    display: inline-block;
+    margin-left:50px;
+    margin-top: 15px;
+    border:1px solid black;
+    width: 600px;
+    height: 700px;
+    background-color: darkorange;
+    border-radius: 15px;
+}
+.txx{
+    background-color: white;
+    margin: 45px;
+    width: 85%;
+    height: 85%;
+    padding: 15px;
+    text-align: justify;
+}
+.prof:hover{
+     box-shadow: -14px 10px 5px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: -14px 10px 5px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -14px 10px 5px -5px rgba(0,0,0,0.75);
+    
+}
+.gll{
+    background-color: lightgray;
+    margin: 1em;
+    width: 70%;
+    margin-left: 15%;
+}
+.ig{
+    max-width: 100%;
+    margin-bottom: 0.5em;
+    display:block;
+    outline:2px solid #fff;
+    opacity: 50%;
+}
+.gallery{
+    columns:5 220px;
+    column-gap:0.5em;
+}
+.ig:hover{
+    opacity: 100%;
+    
+}
+.sbg{
+    margin-left:35%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: darkorange;
+    width: 35%;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    color: black;
+    font-size: 40px;
+    text-shadow: white 2px 5px;
+}
+.tsp{
+    text-align: center;
+    margin-left: 100px;
+    font-size: 160%;
+    text-shadow: darkorange 2px 5px;
+    
+}
+.sdf{
+    margin-left: 150px;
+    margin-right: 90px;
+    border: 1px black solid;
+    max-width: 80%;
+    max-height: 80%;
+    background-color: darkblue;
+    color:white;
+    text-shadow: black 2px 2px;
+    line-height: 50px;
+    padding: 20px;
+    border-radius: 5px 4px;
+    margin-top:20px;
+}
+.sdf li:hover{
+    background-color: white;
+    color: black;
+    text-shadow: white 2px 2px;
+}
+.vid{
+    margin-left:100px;
+    
+}
+.blog1{
+    margin-top:50px;
+    height: 500px;
+    width: 50%;
+    margin-left:25%;
+    border:1px solid black;
 }
